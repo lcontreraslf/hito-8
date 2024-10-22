@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import CardPizza from "./CardPizza";
-import Header from "./Header";
+import CardPizza from "../components/CardPizza";
+import Header from "../components/Header";
 import { Col, Container, Row } from "react-bootstrap";
 
 function Pizza() {
@@ -34,7 +34,6 @@ function Pizza() {
   
   return (
     <div>
-      <Header />
 
       <Container>
         <Row className="g-4" xs={1} md={2} lg={4}>
