@@ -19,10 +19,10 @@ function NotFound() {
             }}
         >
             <div style={{
-                backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+                backgroundColor: 'rgba(0, 0, 0, 0.5)', 
                 padding: '20px',
                 borderRadius: '10px',
-                backdropFilter: 'blur(5px)', // Desenfoque de fondo
+                backdropFilter: 'blur(5px)', 
             }}>
                 <h1>Página no encontrada</h1>
                 <p>Lo sentimos, la página que estás buscando no existe.</p>
